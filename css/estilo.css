@@ -1,0 +1,85 @@
+header{
+    background: #1b2027;
+    padding: 34px 20% 21px;
+    position: relative;
+}
+header::after{
+    content: '';
+    background: rgba(0,0,0,0.2);
+    height: 7px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-bottom: 1px solid #333D4A;
+}
+.header_abajo{
+    text-align: center;
+    margin: 50px auto 0;
+    width: 80%;
+}
+.logo{
+    width: 30%;
+}
+.menu_principal{
+    width: 65%;
+}
+.logo, .menu_principal{
+    display: inline-block;
+    vertical-align: top;
+}
+.logo span{
+    color: #f1eee5;
+    font-family: "Segoe UI";
+    font-size: 34px;
+}
+.logo span, .logo img{
+    vertical-align: middle;
+}
+.menu_principal > ul > li{
+    display: inline-block;
+    position: relative;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    padding: 0px 10px;
+    line-height: 22px;
+    height: auto;
+    border-radius: 4px;
+}
+.menu_principal ul  li{
+    font-family: "Segoe UI";
+    font-size: 14px;
+    padding: 0px 10px;
+    line-height: 22px;
+    height: auto;
+    border-radius: 4px;
+    color: #f1eee5;
+    list-style: none;
+}
+.menu_principal > ul > li > a{
+    color: #f1eee5;
+    text-decoration: none;
+}
+.menu_principal ul > li > ul{
+    position: absolute;
+    left: 0px;
+    padding: 1% 10%;
+    display: none;
+}
+.menu_principal ul > li:hover > ul{
+    display: block;
+}
+.menu_principal ul li:hover{
+    background: url(../imgs/bg3.png);
+}
+.header_abajo h1{
+    font-family: "Georgia";
+    font-style: italic;
+    font-size: 26px;
+    color: #f1eee5;
+}
+.header_abajo p{
+    color: #64909F;
+    font-family: "Arial Unicode MS";
+    font-size: 18px;
+}
